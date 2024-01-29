@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Bienvenido/a!</title>
+</head>
+<body>
+    <header>
+        <h1>Mi Blog Personal</h1>
+        <p>Bienvenido a mi espacio en la web</p>
+    </header>
+
+    <section>
+        <h2>Bienvenido a mi blog personal</h2>
+        <p>¡Hola! Soy Keylin González Arguedas, y aquí comparto mis pensamientos, experiencias y más.</p>
+    </section>
+
+    <nav>
+        <ul>
+          <li><a routerLink="/">Inicio</a></li>
+          <li><a routerLink="/posts">Publicaciones</a></li>
+          <!-- Agrega más enlaces según sea necesario -->
+        </ul>
+    </nav>
+
+    <section>
+        <h2>Últimas Publicaciones</h2>
+        <app-post-list></app-post-list>
+        <!-- Aquí puedes agregar lógica para mostrar las últimas publicaciones usando el componente PostListComponent -->
+    </section>
+
+    <footer>
+        <p>© 2024 Mi Blog Personal</p>
+        <p>Contacto: correo@example.com</p>
+    </footer>
+      
+</body>
+</html>

@@ -1,7 +1,14 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
-const routes: Routes = [];
+//Importaciones para la página de inicio.
+import { HomeComponent } from './home/home.component';
+import { PostListComponent } from './post-list/post-list.component';
+
+const routes: Routes = [
+  { path: '', component: HomeComponent },
+  { path: 'posts', component: PostListComponent },
+];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
