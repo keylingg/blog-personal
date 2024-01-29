@@ -1,0 +1,111 @@
+/*font-family: 'Poppins', sans-serif;
+font-family: 'Quicksand', sans-serif;*/
+body {
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+}
+
+header {
+    background-color: rgb(120, 148, 160);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+header img {
+    width: 80px;
+    height: auto;
+    margin-bottom: 10px; 
+    border-radius: 50px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+section {
+    flex: 1;
+    padding-left: 50px;
+    
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+}
+
+.perform {
+    text-align: justify;
+}
+section .welcome-container {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+section .profile{
+    height: 150px;
+    width: 150px;
+    background-color: aqua;
+    flex: 1;
+    text-align: center;
+}
+
+section.profile img {
+    height: 250px;
+    width: 450px;
+   
+}
+
+
+
+
+
+footer {
+    background-color: rgb(120, 148, 160);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Estilos para el menú de navegación, descomenta el código HTML correspondiente para activar el menú */
+
+nav {
+    background-color: #eee;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: rgb(243, 216, 148);
+}
+
+
+/* Agrega estilos específicos para tu componente PostList si es necesario */
+/*
+app-post-list {
+    /* Estilos para tu componente PostList */
+
+
+
