@@ -14,12 +14,14 @@ import {RouterModule} from '@angular/router';
 //Importaciones de los componentes Home y Lista de Posts. 
 import { HomeComponent } from './home/home.component';
 import { PostListComponent } from './post-list/post-list.component';
+import { CommentComponent } from './comment/comment.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    PostListComponent
+    PostListComponent,
+    CommentComponent
   ],
   imports: [
     BrowserModule,

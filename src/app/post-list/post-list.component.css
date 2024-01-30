@@ -1,0 +1,37 @@
+h2{
+    text-align: center;
+}
+.latest-posts-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.post-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-card h3 {
+    margin-top: 0;
+}
+
+.post-card p {
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.post-card button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.post-card button:hover {
+    background-color: #2980b9;
+}

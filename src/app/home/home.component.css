@@ -61,6 +61,7 @@ section .profile{
 section.profile img {
     height: 250px;
     width: 450px;
+    padding: 20px;
    
 }
 
